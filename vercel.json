@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/le-frigidaire",
+      "destination": "https://le-frigidaire.vercel.app/le-frigidaire"
+    },
+    {
+      "source": "/le-frigidaire/:path*",
+      "destination": "https://le-frigidaire.vercel.app/le-frigidaire/:path*"
+    }
+  ]
+}
